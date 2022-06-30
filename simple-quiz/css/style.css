@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.quiz-header {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(177deg, #292082, #9c27b0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.quiz--container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: 50px 0 0 50px;
+    margin-top: 50px;
+    font-size: 24px;
+}
